@@ -8,8 +8,8 @@ This code is written by thecheese429@gmail.com
 template<class T> inline Print &operator <<(Print &obj, T arg) { obj.print(arg); return obj; } 
 
 #define INTERVAL 200		//the amount of time to delay between readings
-#define SHUNTRES 0.62		//define value of resistor used as shunt
-#define ENDVOLT 2.9			//define the voltage at which the test stops
+#define SHUNTRES 5.3		//define value of resistor used as shunt
+#define ENDVOLT 2.75			//define the voltage at which the test stops
 #define VIN A1				//define the pin number for input A, which will be used to read the cell positive voltage
 #define SHUNT A0			//define the pin number for B, which tells us the voltage on the other side of the shunt resistor
 #define GATE1 0				//the pin used to control the gate on the first mosfet		   
